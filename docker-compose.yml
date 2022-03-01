@@ -1,0 +1,9 @@
+# Set the version of docker compose to use
+version: "3.9"
+
+# The containers that compose the project
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "8001:80"
