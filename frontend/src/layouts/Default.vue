@@ -9,7 +9,7 @@
       <NavButton v-for="(menu, index) in menuRight" :key="index" :menu="menu" />
     </div>
   </nav>
-  <main>
+  <main class="h-screen">
     <router-view />
   </main>
 </template>
