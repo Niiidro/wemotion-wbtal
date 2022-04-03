@@ -9,7 +9,7 @@
       <NavButton v-for="(menu, index) in menuRight" :key="index" :menu="menu" />
     </div>
   </nav>
-  <main class="h-screen">
+  <main class="h-screen mx-10">
     <router-view />
   </main>
 </template>
@@ -22,6 +22,7 @@ const menuLeft = [
 ];
 const menuRight = [
   { label: 'Tickets', to: '/tickets' },
+  { label: 'Team', to: '/team' },
   { label: 'Kontakt', to: '/contact' },
 ];
 </script>

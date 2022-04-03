@@ -33,6 +33,36 @@ const router = createRouter({
         },
       ],
     },
+    {
+      path: '/team',
+      component: () => import('../layouts/Default.vue'),
+      children: [
+        {
+          path: '',
+          component: () => import('../views/Team.vue'),
+        },
+      ],
+    },
+    {
+      path: '/tickets',
+      component: () => import('../layouts/Default.vue'),
+      children: [
+        {
+          path: '',
+          component: () => import('../views/Tickets.vue'),
+        },
+      ],
+    },
+    {
+      path: '/contact',
+      component: () => import('../layouts/Default.vue'),
+      children: [
+        {
+          path: '',
+          component: () => import('../views/Contact.vue'),
+        },
+      ],
+    },
   ],
 });
 
