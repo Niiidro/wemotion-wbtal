@@ -19,6 +19,7 @@ import NavButton from '../components/NavButton.vue';
 const menuLeft = [
   { label: 'Home', to: '/home' },
   { label: 'Programm', to: '/program' },
+  { label: 'Sponsoren', to: '/sponsors' },
 ];
 const menuRight = [
   { label: 'Tickets', to: '/tickets' },

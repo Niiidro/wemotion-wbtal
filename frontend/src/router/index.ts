@@ -34,6 +34,16 @@ const router = createRouter({
       ],
     },
     {
+      path: '/sponsors',
+      component: () => import('../layouts/Default.vue'),
+      children: [
+        {
+          path: '',
+          component: () => import('../views/Sponsors.vue'),
+        },
+      ],
+    },
+    {
       path: '/team',
       component: () => import('../layouts/Default.vue'),
       children: [
