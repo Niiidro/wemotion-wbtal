@@ -1,12 +1,15 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      sans: ['Didact Gothic', 'sans-serif'],
+    },
     extend: {
       colors: {
        'wemotion-purple': '#602483'
       },
       backgroundImage: {
-        'wemotion': 'url(https://directus.wemotion-wbtal.ch/assets/e2f59efd-ab65-46ea-858b-0b9a64b55855)',
+        'wemotion': 'url(https://directus.wemotion-wbtal.ch/assets/62224fee-460a-462c-b331-f656e69e59cc)',
       },
       animation: {
         'bounce-r': 'bounce-r 1s infinite',
