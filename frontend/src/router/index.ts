@@ -44,6 +44,26 @@ const router = createRouter({
       ],
     },
     {
+      path: '/partner',
+      component: () => import('../layouts/Default.vue'),
+      children: [
+        {
+          path: '',
+          component: () => import('../views/Partner.vue'),
+        },
+      ],
+    },
+    {
+      path: '/media',
+      component: () => import('../layouts/Default.vue'),
+      children: [
+        {
+          path: '',
+          component: () => import('../views/Media.vue'),
+        },
+      ],
+    },
+    {
       path: '/team',
       component: () => import('../layouts/Default.vue'),
       children: [
@@ -53,6 +73,7 @@ const router = createRouter({
         },
       ],
     },
+
     {
       path: '/tickets',
       component: () => import('../layouts/Default.vue'),

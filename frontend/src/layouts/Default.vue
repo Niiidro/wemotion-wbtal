@@ -22,8 +22,10 @@ const menuLeft = [
   { label: 'Home', to: '/home' },
   { label: 'Programm', to: '/program' },
   { label: 'Sponsoren', to: '/sponsors' },
+  { label: 'Partner', to: '/partner' },
 ];
 const menuRight = [
+  { label: 'Medien', to: '/media' },
   { label: 'Tickets', to: '/tickets' },
   { label: 'Team', to: '/team' },
   { label: 'Kontakt', to: '/contact' },
