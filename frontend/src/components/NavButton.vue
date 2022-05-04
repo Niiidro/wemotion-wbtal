@@ -1,7 +1,7 @@
 <template>
   <button
     @click="$router.push(menu.to)"
-    class="h-full text-green-700 text-xl xl:text-2xl 2xl:text-3xl px-2 md:px-4 lg:px-6 xl:px-8 2xl:px-10 hover:text-white hover:bg-green-700 btn">
+    class="h-full text-green-700 text-xl 2xl:text-2xl px-1 md:px-2 lg:px-4 xl:px-6 2xl:px-8 hover:text-white hover:bg-green-700 btn">
     {{ menu.label }}
   </button>
 </template>
