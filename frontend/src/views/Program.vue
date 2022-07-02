@@ -43,6 +43,6 @@ const { data: program } = useQuery({
 });
 
 const moderation = computed(() => {
-  return program.value.program.find((program) => program.sort === 1);
+  return program.value.program.find((program: any) => program.sort === 1);
 });
 </script>
