@@ -1,6 +1,6 @@
 <template>
   <a :href="partner.link" class="w-96 h-96 mb-10">
-    <div class="h-full w-full flex border border-green-700 shadow-lg">
+    <div class="h-96 w-full flex border border-green-700 shadow-lg">
       <img
         v-if="partner.image"
         :src="`https://directus.wemotion-wbtal.ch/assets/${partner.image.id}`"
