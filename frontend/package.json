@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^0.26.1",
     "graphql": "^16.3.0",
+    "sass": "^1.54.3",
     "villus": "^1.0.1",
     "vue": "^3.2.31",
     "vue-router": "^4.0.13",

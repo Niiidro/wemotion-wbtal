@@ -1,5 +1,5 @@
 <template>
-  <nav class="h-14 xl:h-16 shadow-2xl flex justify-between">
+  <nav class="h-14 xl:h-16 shadow-2xl justify-between hidden lg:flex">
     <div>
       <NavButton v-for="(menu, index) in menuLeft" :key="index" :menu="menu" />
     </div>
@@ -11,12 +11,14 @@
       <NavButton v-for="(menu, index) in menuRight" :key="index" :menu="menu" />
     </div>
   </nav>
+  <MobileMenu :menu-items="[...menuLeft, ...menuRight]" />
   <main class="h-screen mx-10">
     <router-view />
   </main>
 </template>
 <script setup lang="ts">
 import NavButton from '../components/NavButton.vue';
+import MobileMenu from '../components/MobileMenu.vue';
 
 const menuLeft = [
   { label: 'Home', to: '/home' },
