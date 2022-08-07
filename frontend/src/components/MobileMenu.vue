@@ -36,10 +36,10 @@
   </div>
 </template>
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, type PropType } from 'vue';
 
 const props = defineProps({
-  menuItems: { type: Array },
+  menuItems: { type: Array as PropType<any[]> },
 });
 
 const open = ref(false);
