@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center h-screen">
-    <div class="text-5xl text-center my-auto" v-if="dayjs().isAfter(dayjs('2022-08-15T18:00'))">
+    <div class="text-5xl text-center my-auto" v-if="dayjs().isBefore(dayjs('2022-08-15T18:00'))">
       Tickets verfügbar ab: 15. August 2022 - 18:00 Uhr
     </div>
     <div v-else class="m-auto flex flex-col gap-10">
