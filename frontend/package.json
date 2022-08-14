@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.26.1",
+    "dayjs": "^1.11.5",
     "graphql": "^16.3.0",
     "sass": "^1.54.3",
     "villus": "^1.0.1",
