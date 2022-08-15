@@ -1,9 +1,6 @@
 <template>
   <div class="flex justify-center h-screen">
-    <div class="text-5xl text-center my-auto" v-if="dayjs().isBefore(dayjs('2022-08-15T18:00'))">
-      Tickets verfügbar ab: 15. August 2022 - 18:00 Uhr
-    </div>
-    <div v-else class="m-auto flex flex-col gap-10">
+    <div class="m-auto flex flex-col gap-10">
       <Card class="bg-green-700 text-white shadow-xl">
         <div class="whitespace-pre-wrap">
           Unsere Tickets verkaufen wir über Eventfrog. Über den untenstehenden Button gelangt man direkt auf die Seite
