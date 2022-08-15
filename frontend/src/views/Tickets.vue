@@ -5,7 +5,6 @@
         <div class="whitespace-pre-wrap">
           Unsere Tickets verkaufen wir über Eventfrog. Über den untenstehenden Button gelangt man direkt auf die Seite
           für den Ticketverkauf.
-          {{ dayjs('2022-08-15T18:00').format('DD.MM.YYYY - HH:mm') }}
         </div></Card
       >
       <div class="flex m-auto gap-20 text-xl">
