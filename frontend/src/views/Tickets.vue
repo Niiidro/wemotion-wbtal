@@ -7,31 +7,12 @@
           für den Ticketverkauf.
         </div></Card
       >
-      <div class="flex m-auto gap-20 text-xl">
-        <div>
-          <div class="font-bold text-center mb-2">Donnerstag, 22.09.22</div>
-          <iframe
-            src="https://embed.eventfrog.ch/de/embed/button-buy.html?eventId=6891005664903537904"
-            frameborder="0"
-            scrolling="no"
-            width="217px"></iframe>
-        </div>
-        <div>
-          <div class="font-bold text-center mb-2">Freitag, 23.09.22</div>
-          <iframe
-            src="https://embed.eventfrog.ch/de/embed/button-buy.html?eventId=6964625615119867526"
-            frameborder="0"
-            scrolling="no"
-            width="217px"></iframe>
-        </div>
-        <div>
-          <div class="font-bold text-center mb-2">Samstag 24.09.22</div>
-          <iframe
-            src="https://embed.eventfrog.ch/de/embed/button-buy.html?eventId=6964625678361584020"
-            frameborder="0"
-            scrolling="no"
-            width="217px"></iframe>
-        </div>
+      <div class="flex justify-center">
+        <a
+          href="https://eventfrog.ch/de/p/gruppen/wemotion-2022-6967522686416118347.html"
+          class="h-10 bg-green-600 rounded-md flex px-2 py-1 hover:shadow-xl"
+          ><div class="m-auto text-white text-xl">Tickets kaufen</div></a
+        >
       </div>
     </div>
   </div>
