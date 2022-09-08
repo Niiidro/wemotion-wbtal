@@ -1,6 +1,6 @@
 <template>
   <div v-if="program.sort > 1">
-    <div class="m-auto text-3xl text-center text-wemotion-purple">
+    <div class="m-auto text-2xl text-center text-wemotion-purple">
       {{ program.title }}
     </div>
     <div class="h-full w-full flex border border-green-700 shadow-lg">
