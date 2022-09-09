@@ -2,9 +2,9 @@
   <div v-if="program">
     <div class="mt-5">
       <div class="text-4xl border-b text-wemotion-purple border-green-700">Programm</div>
-      <div class="grid grid-cols-4 gap-10 mt-10">
+      <div class="grid xl:grid-cols-4 gap-10 mt-10">
         <div>
-          <div class="w-full mb-10">
+          <div class="w-full">
             <div class="m-auto text-2xl text-center text-wemotion-purple">
               {{ moderation.title }}
             </div>
@@ -16,8 +16,8 @@
             </div>
           </div>
         </div>
-        <div class="col-span-3">
-          <Card class="bg-green-700 text-white shadow-xl mt-8"
+        <div class="xl:col-span-3">
+          <Card class="bg-green-700 text-white shadow-xl mt-8 text:sm xl:text-base"
             ><div>
               <p>
                 Die &laquo;Wemotion 2022&raquo; vereint explizite Kulinarik des Schweizer Spitzenkochs, gew&uuml;rzt mit
