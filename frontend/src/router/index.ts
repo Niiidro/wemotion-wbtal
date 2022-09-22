@@ -94,6 +94,16 @@ const router = createRouter({
         },
       ],
     },
+    {
+      path: '/gallery',
+      component: () => import('../layouts/Default.vue'),
+      children: [
+        {
+          path: '',
+          component: () => import('../views/Gallery.vue'),
+        },
+      ],
+    },
   ],
 });
 
