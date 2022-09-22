@@ -27,6 +27,7 @@ const menuLeft = [
   { label: 'Partner', to: '/partner' },
 ];
 const menuRight = [
+  { label: 'Galerie', to: '/gallery' },
   { label: 'Medien', to: '/media' },
   { label: 'Tickets', to: '/tickets' },
   { label: 'Team', to: '/team' },
